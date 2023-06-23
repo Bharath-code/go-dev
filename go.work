@@ -2,5 +2,7 @@ go 1.20
 
 use (
 	./builtin&custom_types
+	./control_statements
 	./enum
+	./interfaces
 )
