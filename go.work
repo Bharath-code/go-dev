@@ -5,4 +5,5 @@ use (
 	./control_statements
 	./enum
 	./interfaces
+	./modules_learn
 )
