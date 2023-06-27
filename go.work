@@ -1,10 +1,12 @@
 go 1.20
 
 use (
+	./advanced_interface
 	./advanced_types
 	./builtin&custom_types
 	./control_statements
 	./enum
 	./interfaces
 	./modules_learn
+	./typedfunction
 )
