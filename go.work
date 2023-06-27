@@ -8,5 +8,6 @@ use (
 	./enum
 	./interfaces
 	./modules_learn
+	./pointers
 	./typedfunction
 )
