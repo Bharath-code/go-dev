@@ -6,6 +6,7 @@ use (
 	./builtin&custom_types
 	./control_statements
 	./enum
+	./generics
 	./interfaces
 	./modules_learn
 	./pointers

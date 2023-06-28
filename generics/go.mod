@@ -1,3 +1,3 @@
-module pointers
+module generics
 
 go 1.20
