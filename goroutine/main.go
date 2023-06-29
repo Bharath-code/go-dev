@@ -49,4 +49,27 @@ func main() {
 	}()
 	resultch <- "foo"
 
+	//how to produce and consume multiple channel msg
+	// It's good practice to allocate the value in the order of 2^n
+	msgch := make(chan string, 128)
+	msgch <- "A"
+	msgch <- "B"
+	msgch <- "C"
+	close(msgch)
+	/* print msg one by one
+	msg := <-msgch
+	fmt.Println(msg)
+	msg = <-msgch
+	fmt.Println(msg)
+	msg = <-msgch
+	fmt.Println(msg)
+	*/
+
+	//this is will print "fatal error: all goroutines are asleep - deadlock!"
+	// to avoid this error we need to close the channel , if we didn't then consumer except more msg are coming
+	for msg := range msgch {
+		fmt.Println(msg)
+	}
+	fmt.Println("done reading all the messages from the channel !!!")
+
 }
