@@ -10,5 +10,6 @@ use (
 	./interfaces
 	./modules_learn
 	./pointers
+	./testing
 	./typedfunction
 )
