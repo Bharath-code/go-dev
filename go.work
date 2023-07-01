@@ -4,6 +4,7 @@ use (
 	./advanced_interface
 	./advanced_types
 	./builtin&custom_types
+	./control-flow_sync
 	./control_statements
 	./enum
 	./generics
