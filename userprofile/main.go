@@ -1,3 +1,10 @@
+/*
+Objective of this project is to create a user profile for an user like in social media
+ 1. In a microservice env we need to call different functions to get data of an user
+ 2. So latency may increase and UX decreases , this is where "GO" shines concurreny and go routine
+ 3. This program trying to reduces the api call timing from 500ms to 200ms
+    using go routine, workgroup , channels
+*/
 package main
 
 import (
