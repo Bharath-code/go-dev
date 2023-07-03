@@ -16,4 +16,5 @@ use (
 	./pointers
 	./testing
 	./typedfunction
+	./userprofile
 )
