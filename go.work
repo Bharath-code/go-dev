@@ -11,6 +11,7 @@ use (
 	./goroutine
 	./interfaces
 	./modules_learn
+	./mutexes_atomic-values
 	./pointers
 	./testing
 	./typedfunction
